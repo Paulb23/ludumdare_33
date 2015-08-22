@@ -1,0 +1,67 @@
+===================================================
+|												  | 
+|			LUDUM DARE 33 - IDEAS TXT			  |
+|												  |
+===================================================
+
+Theme: You are the monster.
+
+
+Platormer as a monster
+	- Tile based
+	- Fight towrads a city
+	 - king kong style?
+	- various humans, sutis, plance e.c.t
+
+Top down 2d action
+	- control the monster in high sec chamber
+		- break out
+			- traps
+ 			- rougelike?
+ 			- abilities
+
+Top down survival:
+	- days
+		- Human fighting to surive
+			- wipe out animals = you are a monster
+
+- spiderman like
+	- scientist transfored
+
+- Assisnation game
+	- stealth
+	- top down
+	-  Contracts = levels
+	- spotted = game over
+	- tile baced movment
+
+
+===================================================
+|												  | 
+|			LUDUM DARE 33 - Final Idea			  |
+|												  |
+===================================================
+
+- you are the cookie monster
+	- 2d side scolling platformer
+		- coolect cookies
+		
+	- find your way to the cookie factory!
+		 - take over the cokkie factory for yourself!
+
+	- controls
+		- a = left
+		- d = right
+		- space = jump
+		- e = throw cookies?
+
+	- pixel art
+	- located in the sky
+		- clouds
+
+	enemies
+		- cookie chefs
+		- turrets
+
+
+
