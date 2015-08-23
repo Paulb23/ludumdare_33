@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<resource_file type="TileSet" subresource_count="25" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+<resource_file type="TileSet" subresource_count="27" version="1.1" version_name="Godot Engine v1.1.stable.d3b42e41b0">
+	<ext_resource path="res://res/sprites/tile_sheet.png" type="Texture"></ext_resource>
 	<ext_resource path="res://res/sprites/tile_sheet.png" type="Texture"></ext_resource>
 	<ext_resource path="res://res/sprites/tile_sheet.png" type="Texture"></ext_resource>
 	<ext_resource path="res://res/sprites/tile_sheet.png" type="Texture"></ext_resource>
@@ -31,7 +32,7 @@
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://4">
 		<real name="custom_solver_bias"> 0 </real>
-		<vector2_array name="points" len="4"> 			-32, -32, 32, -32, 32, 32, -32, 32 </vector2_array>
+		<vector2_array name="points" len="4"> 			-62.8545, 40.5637, -62.8545, 27.1022, -0.966553, 27.277, -1.31616, 40.5637 </vector2_array>
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://5">
@@ -60,6 +61,11 @@
 
 	</resource>
 	<resource type="ConvexPolygonShape2D" path="local://10">
+		<real name="custom_solver_bias"> 0 </real>
+		<vector2_array name="points" len="4"> 			-32, -32, 32, -32, 32, 32, -32, 32 </vector2_array>
+
+	</resource>
+	<resource type="ConvexPolygonShape2D" path="local://11">
 		<real name="custom_solver_bias"> 0 </real>
 		<vector2_array name="points" len="4"> 			-32, -32, 32, -32, 32, 32, -32, 32 </vector2_array>
 
@@ -93,7 +99,7 @@
 		<resource name="2/occluder"></resource>		<vector2 name="2/navigation_offset"> 32, 32 </vector2>
 		<resource name="2/navigation"></resource>		<vector2 name="2/shape_offset"> 32, 32 </vector2>
 		<array name="2/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://4">  </resource>
+			<resource  resource_type="Shape2D" path="local://5">  </resource>
 		</array>
 		<string name="3/name"> "grass_left" </string>
 		<resource name="3/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -103,7 +109,7 @@
 		<resource name="3/occluder"></resource>		<vector2 name="3/navigation_offset"> 32, 32 </vector2>
 		<resource name="3/navigation"></resource>		<vector2 name="3/shape_offset"> 32, 32 </vector2>
 		<array name="3/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://5">  </resource>
+			<resource  resource_type="Shape2D" path="local://6">  </resource>
 		</array>
 		<string name="4/name"> "grass_top_right" </string>
 		<resource name="4/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -113,7 +119,7 @@
 		<resource name="4/occluder"></resource>		<vector2 name="4/navigation_offset"> 32, 32 </vector2>
 		<resource name="4/navigation"></resource>		<vector2 name="4/shape_offset"> 32, 32 </vector2>
 		<array name="4/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://6">  </resource>
+			<resource  resource_type="Shape2D" path="local://7">  </resource>
 		</array>
 		<string name="5/name"> "grass_bottom" </string>
 		<resource name="5/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -123,7 +129,7 @@
 		<resource name="5/occluder"></resource>		<vector2 name="5/navigation_offset"> 32, 32 </vector2>
 		<resource name="5/navigation"></resource>		<vector2 name="5/shape_offset"> 32, 32 </vector2>
 		<array name="5/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://7">  </resource>
+			<resource  resource_type="Shape2D" path="local://8">  </resource>
 		</array>
 		<string name="6/name"> "grass_bottom_right" </string>
 		<resource name="6/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -133,7 +139,7 @@
 		<resource name="6/occluder"></resource>		<vector2 name="6/navigation_offset"> 32, 32 </vector2>
 		<resource name="6/navigation"></resource>		<vector2 name="6/shape_offset"> 32, 32 </vector2>
 		<array name="6/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://8">  </resource>
+			<resource  resource_type="Shape2D" path="local://9">  </resource>
 		</array>
 		<string name="7/name"> "grass_bottom_left" </string>
 		<resource name="7/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -143,7 +149,7 @@
 		<resource name="7/occluder"></resource>		<vector2 name="7/navigation_offset"> 32, 32 </vector2>
 		<resource name="7/navigation"></resource>		<vector2 name="7/shape_offset"> 32, 32 </vector2>
 		<array name="7/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://9">  </resource>
+			<resource  resource_type="Shape2D" path="local://10">  </resource>
 		</array>
 		<string name="8/name"> "stone" </string>
 		<resource name="8/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -153,7 +159,7 @@
 		<resource name="8/occluder"></resource>		<vector2 name="8/navigation_offset"> 32, 32 </vector2>
 		<resource name="8/navigation"></resource>		<vector2 name="8/shape_offset"> 32, 32 </vector2>
 		<array name="8/shapes" len="1" shared="false">
-			<resource  resource_type="Shape2D" path="local://10">  </resource>
+			<resource  resource_type="Shape2D" path="local://11">  </resource>
 		</array>
 		<string name="9/name"> "grass_right" </string>
 		<resource name="9/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
@@ -204,6 +210,16 @@
 		<resource name="13/navigation"></resource>		<vector2 name="13/shape_offset"> 32, 32 </vector2>
 		<array name="13/shapes" len="1" shared="false">
 			<resource  resource_type="Shape2D" path="local://3">  </resource>
+		</array>
+		<string name="14/name"> "small patform" </string>
+		<resource name="14/texture" resource_type="Texture" path="res://res/sprites/tile_sheet.png">  </resource>
+		<vector2 name="14/tex_offset"> 0, 0 </vector2>
+		<resource name="14/material"></resource>		<rect2 name="14/region"> 326, 66, 64, 64 </rect2>
+		<vector2 name="14/occluder_offset"> 32, 32 </vector2>
+		<resource name="14/occluder"></resource>		<vector2 name="14/navigation_offset"> 32, 32 </vector2>
+		<resource name="14/navigation"></resource>		<vector2 name="14/shape_offset"> 32, 32 </vector2>
+		<array name="14/shapes" len="1" shared="false">
+			<resource  resource_type="Shape2D" path="local://4">  </resource>
 		</array>
 
 	</main_resource>
